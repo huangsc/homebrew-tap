@@ -1,9 +1,9 @@
 class Knife < Formula
   desc "提升软件开发效率的小工具"
   homepage "https://github.com/huangsc/knife"
-  url "https://github.com/huangsc/knife/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "e76456c7216129eef2167d8863c06225c4de03434072d3c76687583192c44334"
-  version "0.0.1"
+  url "https://github.com/huangsc/knife/releases/download/v1.0.0/knife-v1.0.0-darwin-amd64.tar.gz"
+  sha256 "76c70784504b848cf9bfc13a1db44c90847d8c713f468c4f1e7b5227c4030a00"
+  version "1.0.0"
   def install
     bin.install "knife"
   end
